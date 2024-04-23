@@ -1,0 +1,143 @@
+*{
+    margin: 0px;
+    font-family: 'inter';
+}
+
+#logo{
+    margin-left: 56px;
+    margin-top: 52px;
+}
+#superiormenu{
+    color:aliceblue;
+    background-image: url(images/superiormenu-back.svg);
+}
+
+#superiormenu-title{
+    margin-left: 172px;
+    margin-top: 75px;
+}
+
+#superiormenu-text{
+    margin-left: 172px;
+    margin-top: 25px;
+    padding-bottom: 210px;
+}
+
+#informativemenu{
+    background-color: #EAECE5;
+    display: grid;
+    grid-auto-flow: column;
+    columns: autos;
+}
+
+.icon{
+    margin: 50px 0px 50px 100px;
+    padding: 25px;
+}
+
+.informativetext{
+    display: flex;
+    align-items: center;
+}
+
+#videotitle{
+    color: #247BA0;
+}
+
+#videosection{
+    display: grid;
+    grid-auto-flow: column;
+    columns: autos;
+}
+
+#video{
+    margin: 75px 25px 75px 100px;
+}
+
+#videoelements{
+    margin: 95px 50px 90px 50px;
+}
+
+#carousel{
+    background-color: #247BA0;
+    padding: 50px;
+}
+
+#carouseltitle{
+    color: #EAECE5;
+    text-align: center;
+}
+
+#carouselcontent{
+    margin-top: 50px;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.card{
+    margin-left: 50px;
+}
+
+#arrow-left{
+    display: none;
+}
+
+#card-bruna{
+    display: none;
+}
+
+.arrow{
+    margin-top: 40%;
+    cursor: pointer;
+    transform: translateY(0px);
+    transition-duration: 100ms;
+}
+
+.arrow:hover{
+    transform: translateY(-10px);
+    transition-duration: 100ms;
+}
+
+#form{
+    text-align: center;
+}
+
+#formtitle{
+    margin: 25px;
+    color: #383838;
+}
+
+input{
+    width: 400px;
+    height: 40px;
+    background-color: #EAECE5;
+    color: #383838;
+    margin: 15px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+button{
+    background-color: #247BA0;
+    height: 40px;
+    width: 250px;
+    border-radius: 50px;
+    border: 0px;
+    color: #EAECE5;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    cursor: pointer;
+    transform: translateY(0px);
+    transition-duration: 1000ms;
+}
+
+button:hover{
+    background-color: #3095c0;
+    color: white;
+    transform: translateY(-5px);
+    box-shadow: 0px 15px 20px #1d5a746f;
+    transition-duration: 1000ms;
+}
